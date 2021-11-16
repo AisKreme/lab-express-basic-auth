@@ -6,3 +6,9 @@
   <input name="password" type="password" placeholder="Enter your Password" />
   <button>Sign Up</button>
 </form>
+
+{{#if error}}
+
+  <p class="error">Message: {{error}}</p>
+
+{{/if}}
